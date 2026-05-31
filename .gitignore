@@ -62,7 +62,6 @@ htmlcov/
 build/
 dist/
 *.egg-info/
-
 # Archivos generados por matplotlib
 *.png
 *.jpg
