@@ -1,0 +1,70 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos de configuración de Jupyter
+.jupyter/
+
+# Archivos de modelos
+*.h5
+*.keras
+*.pb
+*.pkl
+*.joblib
+*.sav
+
+# Datos descargados
+data/
+datasets/
+*.csv
+*.parquet
+*.feather
+
+# Logs
+*.log
+
+# Variables de entorno
+.env
+.env.*
+
+# Configuración de IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Cobertura y testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Distribución
+build/
+dist/
+*.egg-info/
+
+# Archivos generados por matplotlib
+*.png
+*.jpg
+*.jpeg
+*.svg
